@@ -1,0 +1,18 @@
+options:
+  dcf_path: "@BUS_CONFIG_PATH@"
+
+master:
+  node_id: 1
+  driver: "ros2_canopen::LifecycleMasterDriver"
+  package: "canopen_master_driver"
+
+cob_device:
+  dcf: "Elmo.eds"
+  node_id: 2
+  # driver: "ros2_canopen::LifecycleProxyDriver"
+  # package: "canopen_proxy_driver"
+
+
+# nodes: 
+#   cob_device:
+#     node_id: 2
