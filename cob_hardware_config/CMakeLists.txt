@@ -13,7 +13,7 @@ find_package(lely_core_libraries REQUIRED)
 find_package(canopen_interfaces REQUIRED)
 find_package(std_srvs REQUIRED)
 
-cogen_dcf(simple)
+generate_dcf(simple)
 
 install(DIRECTORY
   launch

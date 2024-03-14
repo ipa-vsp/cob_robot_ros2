@@ -9,8 +9,8 @@ master:
 cob_device:
   dcf: "Elmo.eds"
   node_id: 2
-  # driver: "ros2_canopen::LifecycleProxyDriver"
-  # package: "canopen_proxy_driver"
+  driver: "ros2_canopen::LifecycleProxyDriver"
+  package: "canopen_proxy_driver"
 
 
 # nodes: 
